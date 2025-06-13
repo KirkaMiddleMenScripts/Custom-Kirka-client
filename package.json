@@ -1,0 +1,33 @@
+{
+  "name": "ThatKirkaClient",
+  "version": "1.0.0",
+  "description": "Unofficial Kirka Client with splash screen",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "YourNameHere",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.9.8",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.akuma.myapp",
+    "productName": "ThatKirkaClient",
+    "icon": "resources/favicon.ico",
+    "win": {
+      "target": "nsis",
+      "icon": "resources/favicon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "resources/favicon.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "resources/favicon.ico"
+    }
+  }
+}
