@@ -1909,6 +1909,14 @@
     "discord": "1169111190824308768",
     "shortId": "Y2OOB2",
     "booster": false
+    "gradient": {
+      "rot": "to bottom",
+      "stops": [
+        "#D24235",
+        "#FFFFA0"
+      ],
+      "shadow": "0px 0px 10px rgba(210, 66, 53, 0.6)"
+    },
     "badges": [
       "https://i.postimg.cc/rpC6c5fj/1802-Sarutobi-Clan.png"
     ]
